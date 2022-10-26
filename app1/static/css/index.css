@@ -15,6 +15,9 @@ color: #808080;
   margin-top: 5%;
 }
 
+#wlcm_img{
+  width: 100%;
+}
 
 h1,
 h2,
@@ -28,11 +31,15 @@ h6
 
 a,
 p {
-  color: #4b5156
+  color:#0ed2f7
 }
 
 a {
   font-weight: 600;
+}
+
+a:hover{
+  color: white;
 }
 
 .container {
@@ -145,7 +152,7 @@ textarea {
 label {
   padding-top: 10px !important;
   display: block;
-  color: black;
+  color:#0ed2f7;
 }
 
 ::placeholder {
@@ -156,12 +163,13 @@ label {
 .button {
   border: 1px solid #0ed2f7;
   background-color: #fff;
-  color: #0ed2f7;
+  color: #000000;
   padding: 10px;
   font-size: 14px;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
+  font-weight: bolder;
 }
 .button:hover {
   border: 1px solid #0ed2f7;
@@ -186,10 +194,11 @@ label {
 }
 
 .card-body {
-  background-color:#dfe4ea;
+  background-color:#000000;
   
   margin: 0 auto;
   text-align: center;
+
 }
 #hd_bar1{
   padding-left: 33%;
